@@ -342,6 +342,11 @@ header {
   width: 400px;
 }
 
+.contents-left-container {
+  display: inline-block;
+  text-align: left;
+}
+
 .contact-contents-logo {
   font-size: 20px;
   padding-bottom: 5px;
@@ -371,6 +376,11 @@ header {
 .sns {
   font-size: 20px;
   padding-bottom: 5px;
+}
+
+.contents-right-container {
+  display: inline-block;
+  text-align: left;
 }
 
 .fab {
