@@ -41,6 +41,10 @@ header {
   padding: 0 30px;
 }
 
+.bars {
+  display: none;
+}
+
 .main-visual {
   width: 100%;
   height: 650px;
@@ -370,10 +374,6 @@ header {
   padding-bottom: 20px;
 }
 
-.contact-contents-right {
-  width: 400px;
-}
-
 .sns {
   font-size: 20px;
   padding-bottom: 5px;
@@ -402,4 +402,176 @@ footer {
   color: #FAFAFA;
   text-align: center;
   line-height: 60px;
+}
+
+/*　レスポンシブデザイン */
+@media screen and (max-width:768px){
+  
+  header {
+    height: 50px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .header-image-item {
+    width: 112px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png)
+  }
+
+  .visual-main {
+    padding-top: 200px;
+  }
+
+  .visual-logo {
+    font-size: 40px;
+    color: #FAFAFA;
+  }
+
+  .visual-text {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #FAFAFA;
+  }
+
+  .portfolio {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contents-heading {
+    width: 100%;
+  }
+
+  .portfolio-box {
+    width: 100%;
+  }
+
+  .contents-image {
+    width: 100%;
+    display: block;
+  }
+
+  .contents-image-item1 {
+    display: none;
+  }
+
+  .contents-image-item2 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .contents-image-item3 {
+    display: none;
+  }
+
+  .contents-image-item4 {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .contents-image-item5 {
+    display: none;
+  }
+
+  .contents-image-item6 {
+    margin: 0 auto;
+  }
+
+  .feature-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .feature-logo {
+    width: 100%;
+  }
+
+  .feature-contents {
+    display: block;
+  }
+
+  .feature-item {
+    margin: 0 auto;
+  }
+
+  .feature-item:nth-child(1) {
+    padding-bottom: 20px;
+  }
+
+  .feature-item:nth-child(2) {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .profile-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .profile-contents {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .profile-item-left {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .profile-item-right {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .contact-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-contents {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .contents-left-container {
+    text-align: center;
+  }
+
+  .contact-contents-left {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+　
+  .contact-contents-right {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sns {
+    text-align: center;
+  }
+
+  .fab {
+    font-size: 45px;
+  }
+  
+  .fa-twitter {
+    padding: 0 8px;
+  }
+
 }
