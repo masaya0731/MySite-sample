@@ -35,6 +35,14 @@ header {
   line-height: 70px;
 }
 
+.nav-container {
+  list-style: none;
+}
+
+.nav-container i {
+  display: none;
+}
+
 .nav-item a {
   color: #FAFAFA;
   text-decoration: none;
@@ -413,6 +421,16 @@ footer {
 
   .nav {
     display: none;
+  }
+
+  .fa-bars {
+    font-size: 30px;
+    color: #fff
+  }
+
+  .nav-container i {
+    line-height: 50px;
+    display: block;
   }
 
   .header-image-item {
