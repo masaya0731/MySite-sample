@@ -387,6 +387,10 @@ header {
   padding-bottom: 5px;
 }
 
+.contact-contents-right {
+  margin: 0 auto;
+}
+
 .contents-right-container {
   display: inline-block;
   text-align: left;
