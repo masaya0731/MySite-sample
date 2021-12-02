@@ -221,6 +221,7 @@ header {
 
 .profile {
   background-color: #ECEFF1;
+  padding-bottom: 90px;
 }
 
 .profile-container {
@@ -294,3 +295,100 @@ header {
   padding-top: 0;
 }
 
+.contact {
+  padding: 90px 0;
+}
+
+.contact-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.contact-logo {
+  text-align: center;
+}
+
+.contact-heading {
+  font-size: 32px;
+  color: #000000;
+  position: relative;
+}
+
+.contact-heading::after{
+  content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: -8px;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+}
+
+.contact-heading-text {
+  padding-top: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-contents {
+  display: flex;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.contact-contents-left {
+  width: 400px;
+}
+
+.contact-contents-logo {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.contact-mail {
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.contents-left-bottom {
+  padding-top: 20px;
+}
+
+.contact-tel {
+  color: #000000;
+}
+
+.contact-left-top {
+  padding-bottom: 20px;
+}
+
+.contact-contents-right {
+  width: 400px;
+}
+
+.sns {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.fab {
+  font-size: 50px;
+}
+
+.fa-twitter {
+  padding: 0 20px;
+}
+
+footer {
+  background-color: #EC715F;
+  height: 60px;
+}
+
+.footer-logo {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
+}
